@@ -2,7 +2,7 @@
 
 const Link = ({ route }) => {
     return (
-        <li>
+        <li className="mx-12">
             <a href={`${route.path}`}>{route.name}</a>
         </li>
     );

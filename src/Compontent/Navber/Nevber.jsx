@@ -17,13 +17,15 @@ const Nevber = () => {
 
     return (
         <nav>
-            <div className="md:hidden text-3xl" onClick={() => setOpen(!open)}>
+            <div className="md:hidden text-3xl mx-9  py-5 px-8 bg-red-400" onClick={() => setOpen(!open)}>
                 {
                     open===true?<IoCloseSharp></IoCloseSharp>:<TiThMenu></TiThMenu>
                 }
 
             </div>
-            <ul className="flex-wrap md:flex ml-6 md:ml-0 justify-around py-4 text-orange-500">
+            <ul className={`flex-wrap md:flex duration-1000 ml-9 mt-5 md:mt-0 md:ml-0 
+                ${open ?'top-12':'-top-48'}
+                justify-around py-4 text-orange-500 absolute md:static bg-slate-300`}>
                 {
                     routes.map(route => <Link key={route.id} route={route}></Link>)
                 }
