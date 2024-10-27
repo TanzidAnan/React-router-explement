@@ -45,11 +45,13 @@ const LineCarts = () => {
     ]
     
     return (
-        <div className='w-1/3'>
+        <div className='w-2/3 bg-orange-200'>
             <LC width={900} height={600} data={markMarkesData}>
             <Line dataKey='math_marks'></Line>
             </LC>
-
+            <div>
+                <h1>This is Bangladesh</h1>
+            </div>
         </div>
     );
 };
