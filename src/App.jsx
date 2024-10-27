@@ -1,14 +1,21 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-     <h1 className='text-2xl'>Tanzid Anan</h1>
+      <div className="diff aspect-[16/9] h-[70vh]">
+        <div className="diff-item-1">
+          <img alt="daisy" src="https://img.daisyui.com/images/stock/photo-1560717789-0ac7c58ac90a.webp" />
+        </div>
+        <div className="diff-item-2">
+          <img
+            alt="daisy"
+            src="https://img.daisyui.com/images/stock/photo-1560717789-0ac7c58ac90a-blur.webp" />
+        </div>
+        <div className="diff-resizer"></div>
+      </div>
     </>
   )
 }
