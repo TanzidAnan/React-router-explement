@@ -1,5 +1,6 @@
 
 import './App.css'
+import LineCarts from './Compontent/LineCarts/LineCarts'
 import Nevber from './Compontent/Navber/Nevber'
 import PriceOptions from './Compontent/PriceOption/PriceOptions'
 
@@ -20,6 +21,7 @@ function App() {
         <div className="diff-resizer"></div>
       </div> */}
       <PriceOptions></PriceOptions>
+      <LineCarts></LineCarts>
     </>
   )
 }
