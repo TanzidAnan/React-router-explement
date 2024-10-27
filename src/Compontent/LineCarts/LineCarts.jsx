@@ -49,6 +49,7 @@ const LineCarts = () => {
             <LC width={400} height={300} data={markMarkesData}>
             <Line dataKey='math_marks'></Line>
             </LC>
+
         </div>
     );
 };
