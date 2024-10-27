@@ -10,10 +10,12 @@ const Nevber = () => {
       
     return (
         <nav>
+            <ul className="flex-wrap md:flex ml-6 md:ml-0 justify-around py-4 text-orange-500">
             {
                 routes.map(route =><li key={route.id}>
                     <a href={`${route.path}`}>{route.name}</a></li>)
             }
+            </ul>
         </nav>
     );
 };
