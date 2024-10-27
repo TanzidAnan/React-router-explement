@@ -45,8 +45,8 @@ const LineCarts = () => {
     ]
     
     return (
-        <div>
-            <LC width={1500} height={600} data={markMarkesData}>
+        <div className='w-1/3'>
+            <LC width={900} height={600} data={markMarkesData}>
             <Line dataKey='math_marks'></Line>
             </LC>
 
