@@ -1,4 +1,4 @@
-import { LineChart as LC, Line } from 'recharts';
+import { LineChart as LC, Line  } from 'recharts';
 
 const LineCarts = () => {
     const markMarkesData=[
@@ -46,7 +46,7 @@ const LineCarts = () => {
     
     return (
         <div>
-            <LC width={400} height={300} data={markMarkesData}>
+            <LC width={1500} height={600} data={markMarkesData}>
             <Line dataKey='math_marks'></Line>
             </LC>
 
